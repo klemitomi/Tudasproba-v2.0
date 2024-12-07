@@ -1,0 +1,51 @@
+/* Body background */
+body {
+    background-color: rgb(215, 225, 234);
+}
+
+/* Footer stilizálás */
+.footer {
+    background-color: rgba(103, 146, 193, 0.5);
+    color: rgba(253, 255, 255, 0.5);
+}
+
+/* Navbar szín módosítás */
+.navbar {
+    background-color: rgba(26, 22, 22, 0.8);
+}
+
+/* Hero style */
+
+.hero {
+    background-color: rgb(6, 33, 62);
+}
+
+/* Reszponzív alkalmazás */
+
+/* Mobil */
+@media screen and (max-width:600px) {
+    .hero {  
+        background-color: rgba(25, 65, 129, 0.913);
+    }
+}
+
+/* Tablet */
+@media screen and (min-width:601px) and (max-width:1024px) {
+    .hero {  
+        background-color: rgba(7, 18, 35, 0.913);
+    }
+}
+
+/* Asztali PC */
+@media screen and (min-width:1025px) and (max-width: 1280px) {
+    .hero {  
+        background-color: rgba(13, 64, 120, 0.782); 
+    }
+}
+
+/* Wide-Screen */
+@media screen and (min-width:1281px) {
+    .hero {  
+        background-color: rgba(90, 126, 185, 0.913);
+    }
+}
